@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Iguazú - Urban Hotel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="" />
+    <meta name="author" content="" />
+    
+    <!-- LOAD CSS FILES -->
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    
+    <!-- LOAD JS FILES -->
+   	<script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+     <script src="js/easing.js"></script>
+    <script src="js/jquery.lazyload.js"></script>
+    <script src="js/jquery.ui.totop.js"></script>
+	<script src="js/selectnav.js"></script>
+    <script src="js/ender.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
+    <script src="js/datepickr.js"></script>
+    <script>
+		jQuery(function() {
+		new datepickr('checkin');
+		});
+		jQuery(function() {
+		new datepickr('checkout');
+		});
+	</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+
+<body>
+	<!-- header begin -->
+	<header>
+        	<div id="logo">
+            	<div class="inner">
+   	    		  <a href="index.html"><img src="img/logo02.png" alt="" /></a>
+            	</div>
+            </div>
+            
+                        
+            <!-- mainmenu begin -->
+            <div id="mainmenu-container">           
+				<ul id="mainmenu">
+                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="#">Habitaciones</a>
+                  	<ul>
+                    	<li><a href="room-list.html">Tipo de Habitación</a>
+                    </li></ul>
+                  
+                  <li><a href="booking.html">Reserva</a></li>
+                  <li><a href="single-news.html">Novedades</a></li>
+                  <li><a href="gallery.html">Galería</a></li>
+                  <li><a href="contact.html">Contacto</a></li>
+              	</li></ul>
+    		</div>
+
+    </header>
+	<!-- header close -->
+    
+	<!-- slider -->
+	<div id="slider">
+    	<div class="callbacks_container">
+        	<ul class="rslides pic_slider">
+             	<li>
+               		<img src="img/slider-home/pic%20(1).jpg" alt="" />
+                	<div class="slider-info">
+                	<h1>Bienvenido a Iguazú Urban Hotel.</h1>
+                	</div>
+                </li>  
+                <li>
+               		<img src="img/slider-home/pic%20(2).jpg" alt="" />
+                	<div class="slider-info">
+                	<h1>Nuestra forma de hacer que se sienta más que en casa.</h1>
+                	</div>
+                </li>                              
+        	</ul>
+    	</div>
+    </div>
+	<!-- slider close -->
+    
+    <div class="clearfix"></div>
+    
+	<!-- search begin -->
+   	<div id="booking">
+    	<div class="container">
+        	<div class="row">
+        	<span class="span2">Reserva ahora:</span>
+        	<form class="form-inline" />
+            	<div class="span2">
+                	<input type="text" id="checkin" value="Check In" />
+                </div>
+                <div class="span2">
+            		<input type="text" id="checkout" value="Check Out" />
+            </div>
+            	<div class="span2">
+            		<select>
+                   		<option />Seleccione Habitación
+                        <option />Habitación Deluxe 
+                        <option />Habitación Elegant
+                        <option />Habitación luxury
+                    </select>
+                </div>            	
+                <div class="span2">
+                <select>
+                   		<option />Numero de Pasajeros
+                        <option />1
+                        <option />2
+                        <option />3
+                        <option />4
+                        <option />5
+                        <option />5+
+                  </select>
+        </div>
+                <div class="span2">
+                <a href="#" class="btn btn-pimary btn-submit">Consultar</a>
+                </div>
+        	</form>
+      	</div>
+      </div>
+	</div>
+	<!-- search close -->
+    
+	<!-- content begin -->
+    <div id="content">
+    	<div class="container">
+        	
+			<div class="row">
+            	<div class="text-center">
+                    <h2>Nuestras Habitaciones</h2>
+                    Encuentre su habitación favorita y sientase como en casa.<br /><br />
+     			 </div>
+                
+                <!-- room -->
+                <div class="room span4">
+                    <div class="btn-book-container">
+                    <a href="booking.html" class="btn-book">Reserve Ahora</a>
+                    </div>
+           	    	<img data-original="img/room-1.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="" />
+                    <h4>Habitación Deluxe</h4>
+                    <div class="description">Las habitaciones Deluxe en base standard son amplias, ubicadas en el   primer piso del hotel con una bella vista a un patio interno. Cuentan   con aire acondicionado frio/calor, LCD, y caja de seguridad.
+                	</div>
+                    <div class="row">
+                            <ul class="room-features">
+                                <li class="span2"><i class="icon-check-sign"></i>Cama Extragrande</li>
+                                <li class="span2"><i class="icon-check-sign"></i>Vista de las Cataratas</li>
+                                <li class="span2"><i class="icon-check-sign"></i>Hotspot y TV por cable</li>
+                                <li class="span2"><i class="icon-check-sign"></i>El almuerzo y la cena gratis</li>
+                            
+                            </ul>
+                    </div>
+                </div>
+                <!-- close room -->
+                
+                  <!-- room -->
+                <div class="room span4">
+                    <div class="btn-book-container">
+                    <a href="booking.html" class="btn-book">Reserve Ahora</a>
+                    </div>
+           	    	<img data-original="img/room-2.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="" />
+                    <h4>Habitación Elegant</h4>
+                    <div class="description">Habitaciones más amplias ubicadas en la planta baja del hotel. Cuentan   con un pequeño escritorio con silla, amplio espejo, caja de seguridad,   frigobar, LCD, con aire acondicionado y calefacción.
+                	</div>
+                    <div class="row">
+                            <ul class="room-features">
+                                <li class="span2"><i class="icon-check-sign"></i>Cama Extragrande</li>
+                                <li class="span2"><i class="icon-check-sign"></i>Vista de las Cataratas</li>
+                                <li class="span2"><i class="icon-check-sign"></i>Hotspot y TV por cable</li>
+                                <li class="span2"><i class="icon-check-sign"></i>El almuerzo y la cena gratis</li>
+                            </ul>
+                    </div>
+      			</div>
+                <!-- close room -->
+
+
+              <!-- room -->
+                <div class="room span4">
+                    <div class="btn-book-container">
+                    <a href="booking.html" class="btn-book">Reserve Ahora</a>
+                    </div>
+           	    	<img data-original="img/room-3.jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="" />
+                    <h4>Habitación Luxury</h4>
+                    <div class="description">Habitación muy amplia, la cluxury dividida en dos ambientes por un   baño y un pasillo conectado. Cuentan con caja de seguridad, LCD en cada   ambiente, frigibar, aire acondicionado y calefacción.</div>
+                    <div class="row">
+                            <ul class="room-features">
+                                <li class="span2"><i class="icon-check-sign"></i>Cama Extragrande</li>
+                                <li class="span2"><i class="icon-check-sign"></i>Vista de las Cataratas</li>
+                                <li class="span2"><i class="icon-check-sign"></i>Hotspot y TV por cable</li>
+                                <li class="span2"><i class="icon-check-sign"></i>El almuerzo y la cena gratis</li>
+                            </ul>
+                    </div>
+
+      			</div>
+                <!-- close room -->
+
+            	
+         	 </div>
+             
+             <hr />
+             
+             <div class="row gallery">
+             	<div class="text-center">
+                    <h2>Algunas Imagenes de nuestro Hotel</h2>
+                    <br /><br />
+   			   </div>
+                 
+                 <div class="span2">
+           	     	<a class="preview" href="img/gallery/pic%20(1).jpg" rel="prettyPhoto" title="Iguazu Urbano Hotel">
+           	     	<img data-original="img/gallery/pic%20(1).jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="" />
+                    </a>
+                 </div>
+                 
+                 <div class="span2">
+           	     	<a class="preview" href="img/gallery/pic%20(2).jpg" rel="prettyPhoto" title="Iguazu Urbano Hotel">
+           	     	<img data-original="img/gallery/pic%20(2).jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="" />
+                    </a>
+                 </div>
+                 
+                 <div class="span2">
+           	     	<a class="preview" href="img/gallery/pic%20(3).jpg" rel="prettyPhoto" title="Iguazu Urbano Hotel">
+           	     	<img data-original="img/gallery/pic%20(3).jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="" />
+                    </a>
+                 </div>
+                 
+                 <div class="span2">
+           	     	<a class="preview" href="img/gallery/pic%20(4).jpg" rel="prettyPhoto" title="Iguazu Urbano Hotel">
+           	     	<img data-original="img/gallery/pic%20(4).jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="" />
+                    </a>
+                 </div>
+                 
+                 <div class="span2">
+           	     	<a class="preview" href="img/gallery/pic%20(5).jpg" rel="prettyPhoto" title="Iguazu Urbano Hotel">
+           	     	<img data-original="img/gallery/pic%20(5).jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="" />
+                    </a>
+                 </div>
+                 
+                 <div class="span2">
+           	     	<a class="preview" href="img/gallery/pic%20(6).jpg" rel="prettyPhoto" title="Iguazu Urbano Hotel">
+           	     	<img data-original="img/gallery/pic%20(6).jpg" src="img/pic-blank-1.gif" class="img-polaroid" alt="" />
+                    </a>
+                 </div>
+                 
+             </div>
+            
+            <hr />
+            
+            <div class="row"></div>
+             
+             
+            </div>
+        
+        </div>
+	<!-- content close -->
+    
+    <!-- footer begin -->
+	<footer>
+  		<div class="container">
+   	  		<div class="row">
+                <div class="span3">
+                	<img src="img/logo-2.png" alt="" />
+                </div> 
+            	<div class="span3">
+                	<h3>A cerca de</h3>
+                	Un hotel cálido y vanguardista, ubicado en pleno centro de la ciudad de   Puerto Iguazú.  En nuestro hotel, usted podrá relajarse y disfrutar de su estadía cerca   de las cataratas con la mejor atención. Queremos que se sienta como en   su propia casa, con un servicio personalizado en un ambiente cálido y   amable. Lo invitamos a conocerlo! . 
+                </div>                                
+ 				<div class="span3">
+                    <h3>Servicios</h3>
+                    <ul class="list-news"> 
+                        <li>
+                            <img src="img/th01.png" alt="" />
+                            <div class="text">Estacionamiento Gratuito. Disponibilidad<br>
+limitada, es decir por orden de llegada</div>
+                        </li>
+                        <li>
+                            <img src="img/th02.png" alt="" />
+                            <div class="text">Internet inalámbrico gratuito (Wi-Fi) y computadora sin cargo para nuestros huéspedes</div>
+                        </li>
+                    </ul>                
+               </div>
+               <div class="span3">
+                	<h3>Dirección</h3>
+                    	<address>
+                    	Bompland 274 - Pto. Iguazú<span><strong>Teléfono:</strong> +54 03757 424171</span>
+                        <span><strong>Fax: </strong>+54 03757 421093</span>
+                        <span><strong>Email:</strong><a href="mailto:contact@example.com"> info@iguazuurbanhotel.com.ar</a></span>
+                        <span><strong>Web:</strong><a href="#test"> www.iguazuurbanhotel.com</a></span>
+                       </address>
+                       
+                       <div class="social-icons">
+                        	<a href="#"><img src="img/social-icons/rss.png" alt="" /></a>
+                        	<a href="#"><img src="img/social-icons/facebook.png" alt="" /></a>
+                        	<a href="#"><img src="img/social-icons/twitter.png" alt="" /></a>
+                        	<a href="#"><img src="img/social-icons/gplus.png" alt="" /></a>
+                        	<a href="#"><img src="img/social-icons/youtube.png" alt="" /></a>
+                        	<a href="#"><img src="img/social-icons/vimeo.png" alt="" /></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="subfooter">
+        	<div class="container">
+                <div class="row">
+                	<div class="span6">
+                    	&copy; Copyiright 2016 - Iguazu Urban Hotel by Navcoder
+                    </div>
+                    <div class="span6">
+                    	<nav>
+                          <ul>
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">Habitaciones</a></li>
+                              <li><a href="#">Reserva</a></li>
+                              <li><a href="#">Noticias</a></li>
+                              <li><a href="#">Galería</a></li>
+                              <li><a href="#">Contacto</a></li>
+                          </ul>
+                        </nav>
+                  </div>
+                </div>
+            </div>
+        </div>
+        
+   	</footer>
+	<!-- footer close -->
+   
+</body>
+</html>
